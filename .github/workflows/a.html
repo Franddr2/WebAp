@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efekt szkła</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #013220, #add8e6);
+      background-size: cover;
+      font-family: sans-serif;
+    }
+
+    .glass-box {
+      width: 80%;
+      max-width: 600px;
+      padding: 2rem;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="glass-box">
+    <h1>Efekt szkła</h1>
+    <p>To jest przezroczysty blok z lekkim rozmazaniem.</p>
+  </div>
+</body>
+</html>
